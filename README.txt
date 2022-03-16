@@ -2,16 +2,16 @@ The data explores the different tests and procedures used to detect Parkinsons D
 
 Using Random Forest, it is possible to determine which variables are important in predicting if a patient has PD.
 
-Through the variable importance plot, it is evident that the two tests with the highest GINI Coefficient are:
+Through the variable importance plot, it is evident that the 4 tests with the highest GINI Coefficient are:
 
 1: MDVP:Fo(Hz) - Average vocal fundamental frequency 
-2: PPE - Three nonlinear measures of fundamental frequency variation
+2,3,4: Spread1, Spread2, PPE - Three nonlinear measures of fundamental frequency variation
 
-I also compared a decision tree using only the two important variables with the random forest.
+I also compared a decision tree using only the four important variables with the random forest.
 
-Taking into consideration ONLY the two tests will yield 86% accuracy whereas all variables in the random forest yield 96% accuracy. 
+Taking into consideration ONLY the two tests will yield 89.7% accuracy whereas all variables in the random forest yield 95.2% accuracy. 
 
-This shows that all factors have importance, if there is a time and money constraint, focus should be put towards tests 1 and 2 as combined they account for a great deal of the diagnosis accuracy. 
+This shows that all factors have importance, if there is a time and money constraint, focus should be put towards tests 1,2,3,4 as combined they account for a great deal of the diagnosis's accuracy. 
 
 
 
